@@ -112,9 +112,9 @@ public class StudentContactSystem extends JFrame {
 
         jPanel2.setLayout(new java.awt.BorderLayout());
 
-        jPanel4.setPreferredSize(new java.awt.Dimension(250, 220));
+        jPanel4.setPreferredSize(new java.awt.Dimension(275, 220));
         jLabel1.setText("Student ID");
-        jLabel1.setPreferredSize(new java.awt.Dimension(80, 17));
+        jLabel1.setPreferredSize(new java.awt.Dimension(95, 17));
         jPanel4.add(jLabel1);
 
         IDTF.setColumns(15);
@@ -122,7 +122,7 @@ public class StudentContactSystem extends JFrame {
         jPanel4.add(IDTF);
 
         jLabel2.setText("First Name");
-        jLabel2.setPreferredSize(new java.awt.Dimension(80, 17));
+        jLabel2.setPreferredSize(new java.awt.Dimension(95, 17));
         jPanel4.add(jLabel2);
 
         firstnameTF.setColumns(15);
@@ -130,7 +130,7 @@ public class StudentContactSystem extends JFrame {
         jPanel4.add(firstnameTF);
 
         jLabel3.setText("Middle Inits");
-        jLabel3.setPreferredSize(new java.awt.Dimension(80, 17));
+        jLabel3.setPreferredSize(new java.awt.Dimension(95, 17));
         jPanel4.add(jLabel3);
 
         initsTF.setColumns(15);
@@ -138,7 +138,7 @@ public class StudentContactSystem extends JFrame {
         jPanel4.add(initsTF);
 
         jLabel4.setText("Last Name");
-        jLabel4.setPreferredSize(new java.awt.Dimension(80, 17));
+        jLabel4.setPreferredSize(new java.awt.Dimension(95, 17));
         jPanel4.add(jLabel4);
 
         lastnameTF.setColumns(15);
@@ -146,7 +146,7 @@ public class StudentContactSystem extends JFrame {
         jPanel4.add(lastnameTF);
 
         jLabel5.setText("Course");
-        jLabel5.setPreferredSize(new java.awt.Dimension(80, 17));
+        jLabel5.setPreferredSize(new java.awt.Dimension(95, 17));
         jPanel4.add(jLabel5);
 
         courseTF.setColumns(15);
@@ -154,15 +154,15 @@ public class StudentContactSystem extends JFrame {
         jPanel4.add(courseTF);
 
         jLabel6.setText("Home Phone");
-        jLabel6.setPreferredSize(new java.awt.Dimension(80, 17));
+        jLabel6.setPreferredSize(new java.awt.Dimension(95, 17));
         jPanel4.add(jLabel6);
 
         homePhoneTF.setColumns(15);
         homePhoneTF.setEnabled(false);
         jPanel4.add(homePhoneTF);
 
-        jLabel7.setText("Mobile Phone");
-        jLabel7.setPreferredSize(new java.awt.Dimension(80, 17));
+        jLabel7.setText("Mobile");
+        jLabel7.setPreferredSize(new java.awt.Dimension(95, 17));
         jPanel4.add(jLabel7);
 
         mobilePhoneTF.setColumns(15);
@@ -170,7 +170,7 @@ public class StudentContactSystem extends JFrame {
         jPanel4.add(mobilePhoneTF);
 
         jLabel8.setText("Home Email");
-        jLabel8.setPreferredSize(new java.awt.Dimension(80, 17));
+        jLabel8.setPreferredSize(new java.awt.Dimension(95, 17));
         jPanel4.add(jLabel8);
 
         homeEmailTF.setColumns(15);
